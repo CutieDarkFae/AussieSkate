@@ -1,0 +1,5 @@
+First, a list of skaters, UI POC
+
+Needs: skater model
+A table to display the skaters
+A row to display a skater
