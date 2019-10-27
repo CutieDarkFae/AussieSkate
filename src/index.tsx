@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { Table } from "./components/ui/Table";
+import { Page } from "./components/ui/Page";
 import { Skater } from "./components/model/Skater";
 
 let skaters:Skater[]=[
@@ -11,6 +11,6 @@ let skaters:Skater[]=[
 ];
 
 ReactDOM.render(
-    <Table skaters={skaters} />,
+    <Page skaters={skaters} />,
     document.getElementById("example")
 );
