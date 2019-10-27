@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Skater } from "../model/Skater";
+import { Skater } from "../../model/Skater";
 
 export interface RowProps { skater: Skater }
 

@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Table } from "./Table";
-import { Skater } from "../model/Skater";
+import { Skater } from "../../model/Skater";
 
-export interface PageProps {
+export interface SkaterPageProps {
     skaters: Skater[];
 }
-export class Page extends React.Component<PageProps, {}> {
+export default class SkaterPage extends React.Component<SkaterPageProps, {}> {
     onAddSkater() {
         console.log("Add Skater clicked");
     }
